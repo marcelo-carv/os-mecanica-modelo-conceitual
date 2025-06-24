@@ -13,3 +13,23 @@ O objetivo é estruturar de forma eficiente e escalável o controle de ordens de
   <li>Atribuição de equipes de mecânicos responsáveis por cada OS;</li>
   <li>Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc.).</li>
 </ul>
+
+<h1>🧩 Estrutura Lógica do Modelo</h1>
+<h4>A estrutura do banco de dados foi pensada para refletir de forma fiel o dia a dia de uma oficina mecânica, usando os princípios dos bancos relacionais e boas práticas de modelagem. A ideia é conectar todas as informações de forma lógica, coerente e eficiente.</h4>
+<h4>Veja como as partes se encaixam:</h4>
+
+<ul>
+  <li>Clientes e Veículos:
+Cada cliente pode ter um ou mais veículos cadastrados. Esse vínculo é importante para rastrear todo o histórico de serviços realizados por veículo e por cliente.</li>
+  <li>Ordens de Serviço (OS):
+São o centro de tudo. Cada OS está ligada a um veículo e a uma equipe, e nela ficam registradas todas as ações realizadas: os serviços executados, as peças utilizadas, os valores cobrados e as datas de emissão e entrega. É o documento que resume todo o atendimento.</li>
+  <li>Serviços e Peças:
+Os serviços contam com uma descrição e o valor da mão de obra. As peças, por sua vez, têm valor unitário. Ambos são relacionados a cada OS por meio de tabelas intermediárias, o que permite saber exatamente quais e quantos serviços e peças foram aplicados em cada atendimento, facilitando o cálculo do custo total.</li>
+  <li>Equipes e Mecânicos:
+Uma OS é atribuída a uma equipe responsável. E cada equipe pode ter vários mecânicos, que podem também participar de outras equipes, conforme a necessidade da oficina. Esse formato garante flexibilidade e organização na alocação da mão de obra.</li>
+</ul>
+
+
+
+
+
