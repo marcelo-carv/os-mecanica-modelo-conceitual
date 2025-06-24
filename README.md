@@ -15,7 +15,7 @@ O objetivo é estruturar de forma eficiente e escalável o controle de ordens de
 </ul>
 
 <h1>🧩 Estrutura Lógica do Modelo</h1>
-<h4>A estrutura do banco de dados foi pensada para refletir de forma fiel o dia a dia de uma oficina mecânica, usando os princípios dos bancos relacionais e boas práticas de modelagem. A ideia é conectar todas as informações de forma lógica, coerente e eficiente.</h4>
+A estrutura do banco de dados foi pensada para refletir de forma fiel o dia a dia de uma oficina mecânica, usando os princípios dos bancos relacionais e boas práticas de modelagem. A ideia é conectar todas as informações de forma lógica, coerente e eficiente.
 <h4>Veja como as partes se encaixam:</h4>
 
 <ul>
