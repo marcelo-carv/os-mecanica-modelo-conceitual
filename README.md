@@ -7,11 +7,11 @@ O objetivo é estruturar de forma eficiente e escalável o controle de ordens de
 <h1>🎯Propósito</h1>
 <h4>O sistema visa oferecer um controle completo do fluxo de trabalho da oficina, permitindo:</h4>
 <ul>
-  <li>Cadastro de clientes e seus respectivos veículos;</li>
-  <li>Registro detalhado de cada serviço executado, incluindo valor de mão de obra e descrição;</li>
-  <li>Controle de peças utilizadas em cada reparo, com quantidade e valores;</li>
-  <li>Atribuição de equipes de mecânicos responsáveis por cada OS;</li>
-  <li>Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc.).</li>
+  <li>Cadastro de clientes e seus respectivos veículos.</li>
+  <li>Registro detalhado de cada serviço executado, incluindo valor de mão de obra e descrição.</li>
+  <li>Controle de peças utilizadas em cada reparo, com quantidade e valores.</li>
+  <li>Atribuição de equipes de mecânicos responsáveis por cada OS.</li>
+  <li>Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc).</li>
 </ul>
 
 <h1>🧩 Estrutura Lógica do Modelo</h1>
@@ -29,6 +29,15 @@ Os serviços contam com uma descrição e o valor da mão de obra. As peças, po
 Uma OS é atribuída a uma equipe responsável. E cada equipe pode ter vários mecânicos, que podem também participar de outras equipes, conforme a necessidade da oficina. Esse formato garante flexibilidade e organização na alocação da mão de obra.</li>
 </ul>
 
+<h1>📄 O Que Você Vai Encontrar no Esquema?</h1>
+<h4>O diagrama conceitual detalha:</h4>
+
+<ul>
+  <li>As entidades principais (Cliente, Veículo, Ordem de Serviço, Mecânico, Equipe, Peça, Serviço).</li>
+  <li>Seus atributos essenciais (nome, placa, valor, data, status, etc).</li>
+  <li>Os relacionamentos entre entidades, com cardinalidades e chaves primárias/estrangeiras.</li>
+  <li>O uso de tabelas associativas para modelar relacionamentos muitos-para-muitos de forma eficiente.</li>
+</ul>
 
 
 
