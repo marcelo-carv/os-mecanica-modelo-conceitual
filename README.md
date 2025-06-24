@@ -6,8 +6,10 @@ O objetivo é estruturar de forma eficiente e escalável o controle de ordens de
 
 <h1>Propósito</h1>
 <h4>O sistema visa oferecer um controle completo do fluxo de trabalho da oficina, permitindo:</h4>
-- Cadastro de clientes e seus respectivos veículos;
-- Registro detalhado de cada serviço executado, incluindo valor de mão de obra e descrição;
-- Controle de peças utilizadas em cada reparo, com quantidade e valores;
-- Atribuição de equipes de mecânicos responsáveis por cada OS;
-- Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc.).
+<ul>
+  <li>Cadastro de clientes e seus respectivos veículos;</li>
+  <li>Registro detalhado de cada serviço executado, incluindo valor de mão de obra e descrição;</li>
+  <li>Controle de peças utilizadas em cada reparo, com quantidade e valores;</li>
+  <li>Atribuição de equipes de mecânicos responsáveis por cada OS;</li>
+  <li>Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc.).</li>
+</ul>
