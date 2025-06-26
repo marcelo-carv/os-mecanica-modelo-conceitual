@@ -14,6 +14,9 @@ O objetivo é estruturar de forma eficiente e escalável o controle de ordens de
   <li>Acompanhamento do status das ordens de serviço (aguardando, em andamento, concluída etc).</li>
 </ul>
 
+<h1>⚙️Diagrama de Entidade-Relacionamento (ERD)</h1>
+<p><img src="COLE_O_LINK_DA_IMAGEM_DO_SEU_DIAGRAMA_AQUI" alt="Diagrama do Banco de Dados no MySQL Workbench"></p>
+
 <h1>🧩 Estrutura Lógica do Modelo</h1>
 A estrutura do banco de dados foi pensada para refletir de forma fiel o dia a dia de uma oficina mecânica, usando os princípios dos bancos relacionais e boas práticas de modelagem. A ideia é conectar todas as informações de forma lógica, coerente e eficiente.
 <h4>Veja como as partes se encaixam:</h4>
